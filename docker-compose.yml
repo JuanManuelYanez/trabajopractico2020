@@ -1,0 +1,17 @@
+version: "3"
+
+services:
+        
+    mysql-db:
+            
+        build: .
+        volumes:
+            - db:/var/lib/mysql
+              
+        ports:
+            - 33060:3306
+              
+volumes:      
+        
+    db: 
+
