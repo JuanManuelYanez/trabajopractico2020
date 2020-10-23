@@ -8,5 +8,3 @@ ENV MYSQL_PASSWORD=123
 	
 ENV MYSQL_DATABASE=listita
 
-VOLUME /var/lib/mysql
-
